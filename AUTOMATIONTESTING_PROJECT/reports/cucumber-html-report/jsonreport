@@ -1,0 +1,368 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "automation--website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103734464255,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch the broswer and enter the url",
+            "match": {
+              "location": "automation_login_step.launch_the_broswer_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1220693999,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page is opened",
+            "match": {
+              "location": "automation_login_step.login_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12490276876,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the \"suryatejapadi15@gmail.com\" and \"8520888118@Padi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suryatejapadi15@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "8520888118@Padi",
+                  "offset": 43
+                }
+              ],
+              "location": "automation_login_step.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9283811985,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click the login button",
+            "match": {
+              "location": "automation_login_step.click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@AutomationPracticeSite"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "verify the title",
+        "description": "",
+        "id": "automation--website;verify-the-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69445032299,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "launch the automation appliction",
+            "match": {
+              "location": "automation_verifytitle_step.launch_the_automation_appliction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22996469,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "get the title name",
+            "match": {
+              "location": "automation_verifytitle_step.get_the_title_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3656289262,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "compare with expected title",
+            "match": {
+              "location": "automation_verifytitle_step.compare_with_expected_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tc_02_verifytitle"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To know the stock and add to the cart",
+        "description": "",
+        "id": "automation--website;to-know-the-stock-and-add-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60583254862,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "launch the automation page",
+            "match": {
+              "location": "automation_stockandadd_step.launch_the_automation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58605818137,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "open the product",
+            "match": {
+              "location": "automation_stockandadd_step.open_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73021143,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify whether product is in stock or not",
+            "match": {
+              "location": "automation_stockandadd_step.verify_whether_product_is_in_stock_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8621258734,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "add product to the cart",
+            "match": {
+              "location": "automation_stockandadd_step.add_product_to_the_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@tc_03_stockandcart"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "To remove item from cart",
+        "description": "",
+        "id": "automation--website;to-remove-item-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53879704299,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "launch the automation practice page",
+            "match": {
+              "location": "automation_deleteitemincart_step.launch_the_automation_practice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21855636606,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "add item to the cart",
+            "match": {
+              "location": "automation_deleteitemincart_step.add_item_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9505114080,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "open the cart",
+            "match": {
+              "location": "automation_deleteitemincart_step.open_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9281778155,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "delete the item from cart",
+            "match": {
+              "location": "automation_deleteitemincart_step.delete_the_item_from_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@tc_04_deleteitem"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "To checkout the cart",
+        "description": "",
+        "id": "automation--website;to-checkout-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60142118741,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "launch the automation practice website",
+            "match": {
+              "location": "automation_checkout_step.launch_the_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37895256935,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "open cart",
+            "match": {
+              "location": "automation_checkout_step.open_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5458290677,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "click on proceed",
+            "match": {
+              "location": "automation_checkout_step.click_on_proceed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2903386266,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "enter delivery details and payment type",
+            "match": {
+              "location": "automation_checkout_step.enter_delivery_details_and_payment_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 376917406,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "place order",
+            "match": {
+              "location": "automation_checkout_step.place_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11340615092,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "it is directed to another page",
+            "match": {
+              "location": "automation_checkout_step.it_is_directed_to_another_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@tc_05_checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Automation  website",
+    "description": "",
+    "id": "automation--website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AutomationPracticeSite"
+      }
+    ]
+  }
+]
